@@ -1,0 +1,431 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #e6f7ff;
+  /* Light blue background */
+}
+
+/* Primary Text Color */
+.text-primary {
+  color: #3498db;
+  /* Consistent blue accent */
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #007bff;
+  /* Brighter blue for buttons */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
+.btn-primary:active {
+  background-color: #004085;
+  /* Even darker blue when active */
+  transform: scale(0.98);
+}
+
+.btn-primary:focus {
+  outline: none;
+}
+
+/* Section Titles and Descriptions */
+.section-title {
+  color: #2c3e50;
+  /* Dark blue color for titles */
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  color: #505c5c;
+  /* Soft blue-grey for text */
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* nav related style */
+/* General Navbar Styles */
+/* General Navbar Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  /* Dark blue background for navbar */
+  padding: 0px 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 5%;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Hover Effect */
+nav ul li a:hover {
+    background-color: #3498db; /* Lighter blue for hover effect */
+    border-radius: 5px;
+}
+
+nav ul li a.active {
+    background-color: #0056b3; /* Highlight active page with a distinct blue */
+    color: white;
+    border-radius: 5px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #d1eef5; /* Light blueish background */
+    background-image: url('../images/header_bg.png'), url('images/premium_photo-1683309567322-e95b9f182dcc.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-pic {
+  width: 500px;
+}
+
+.banner-greeting {
+  font-size: 45px;
+  color: #2c3e50;
+  /* Dark blue for greeting */
+  margin-bottom: 0;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: #3498db;
+  /* Blueish title */
+}
+
+.banner-description {
+  margin-top: 10px;
+  color: #7f8c8d;
+  /* Light grey-blue description */
+}
+
+/* main section style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+main section {
+  margin-top: 130px;
+}
+
+/* about style */
+.about {
+  padding: 10px;
+  border-radius: 10px;
+  background: #d6f5fc;
+  /* Light blueish background */
+  margin: 130px 0;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  text-align: center;
+  color: #2c3e50;
+  /* Dark blue text */
+}
+.info-title {
+    color: #3498db; /* Blueish accent for titles */
+    font-weight: bold;
+    margin-bottom: 5px; /* Space between title and description */
+}
+
+.info-description {
+    color: #2c3e50; /* Dark blue for text */
+    font-size: 16px; /* Slightly larger font size for readability */
+}
+
+
+
+
+/* skills related styles */
+#what-i-do-description {
+  padding: 30px 150px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+  /* Space between skill items */
+  justify-content: center;
+  /* Center the items */
+  flex-wrap: wrap;
+  /* Wrap items on smaller screens */
+  padding: 0 20px;
+  /* Add some padding to prevent content from touching the edges */
+}
+
+.skill {
+  background-color: #ffffff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  /* Light shadow effect */
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px;
+  max-width: 300px;
+  flex: 1 1 300px;
+  /* Flex to maintain the size */
+  margin-bottom: 30px;
+  /* Space between rows */
+}
+
+.skill img {
+  max-width: 60px;
+  margin-bottom: auto;
+}
+
+.skill-title {
+  color: #2c3e50;
+  /* Dark blue for skill title */
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.skill-description {
+  color: #7f8c8d;
+  /* Light grey-blue for skill description */
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.coding-profiles {
+    background-color: #c9dbeb; /* Light blue background */
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 8px;
+    color: #3787bc; /* Blue color for the title */
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    color: #273239; /* Blue color for the title */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.coding-profiles ul {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0;
+    text-align: center;
+}
+
+.coding-profiles li {
+    padding: 10px;
+    display: inline; /* Displays list items in a row */
+    margin-right: 15px;
+}
+
+.coding-profiles a {
+    color: #184c83; /* Bright blue for links */
+    text-decoration: none; /* No underline */
+    font-weight: bold;
+}
+
+.coding-profiles a:hover {
+    text-decoration: underline; /* Underline on hover for better interaction feedback */
+    color: #0056b3; /* Darker blue on hover */
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+    /* Stack skill items vertically on smaller screens */
+    align-items: center;
+  }
+}
+
+/* Resume section styles */
+/* Resume and Qualification Styles */
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    max-width: 800px; /* Adjust the width as necessary */
+    background-color: #f0f8ff; /* Very light blue to keep the theme consistent */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.resume-colum {
+    margin-bottom: 20px;
+}
+
+.resume-colum-title {
+    font-size: 24px;
+    color: #2c3e50; /* Dark blue for headers */
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db; /* Blueish line under the title for emphasis */
+}
+
+.resume-item {
+    padding: 15px;
+    background-color: #e6f7ff; /* Lighter blue for each item background */
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.resume-item-title {
+    font-size: 20px;
+    color: #2c3e50; /* Consistent dark blue for titles */
+    margin-bottom: 5px;
+}
+
+.resume-item-institute {
+    font-size: 16px;
+    color: #3498db; /* Blue accent for the institute name */
+    margin-bottom: 10px;
+}
+
+.resume-item-description {
+    font-size: 16px;
+    color: #2c3e50; /* Dark blue for readability */
+    text-align: justify; /* Justifies the text for better readability */
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc; /* Light grey line for separation */
+    margin: 20px 0;
+}
+
+.download-cv {
+    text-align: center; /* Centers the download button */
+    padding: 20px;
+}
+
+.download-cv button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #3498db; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-cv button:hover {
+    background-color: #1d6f99; /* Darker blue on hover */
+}
+
+/* Footer style */
+footer {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    gap: 10px;
+    background: #c8f0f9; /* Light blueish background */
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.footer-column {
+    text-align: center; /* Ensures text within each column is centered if using multiple columns */
+    
+    flex: 1; /* Makes each footer column take equal width if you have multiple columns */
+}
+
+.social-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; /* Center the social links horizontally if they are not text */
+    width: 100%; /* Optional: Adjusts based on your layout needs */
+    gap: 40px; /* Space between social links */
+}
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 30px; /* consistent sizing */
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover img {
+    transform: scale(1.1); /* Slightly enlarges icons on hover */
+}
+
+
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #7f8c8d;
+  /* Light grey-blue text */
+  border-radius: 5px;
+  background: #ffffff;
+  border: 0;
+}
